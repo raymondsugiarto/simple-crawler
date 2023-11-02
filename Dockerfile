@@ -11,4 +11,6 @@ RUN pwd
 RUN ls -l
 
 RUN /app/main https://autify.com
+
+RUN ls -l /app/html
 # CMD ["/app/main"]
